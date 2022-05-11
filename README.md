@@ -1,11 +1,9 @@
-# Zoom Tab Close
+# Auto Tab Close
 
-When joining a Zoom meeting via a browser click, the desktop app is launched. The opened tab will redirect to a "status=success" URL when the desktop app successfully joins, leaving behind an open browser tab you have to close.
+There are times that applications will open up windows for authentication or for starting up a separate application. However, those tabs will just be left around.
 
-This addon closes those tabs automatically as soon as they redirect to "status=success"
+This addon closes those tabs automatically as soon as they detect one of the regex patterns defined, including some built in detections.
 
-I am not a seasoned addon dev.. Please fork it, fix it, PR it.
+---
 
-## Changelog
-
-v1.2 - update the "success" url pattern matching with a recent zoom change. Kudos to @aocole
+###### Forked from https://github.com/cshields/zoom-tab-close
